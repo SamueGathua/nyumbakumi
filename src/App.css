@@ -12,8 +12,20 @@
 .nav{
   background-color: #C5D531;
 }
+.meetup-conainer{
+  height: 95vh !important;
+}
 .right{
   float: right !important;
+}
+.meetup-conainer{
+  background-color: #41412A !important;
+  color: #FFFFFF !important;
+  text-align: center;
+}
+.d-block{
+  width: 100%;
+  height: 80vh!important;
 }
 .metadata{
   height: 100%;
@@ -23,7 +35,7 @@
   height: 40vh;
 }
 .links{
-  color: #FFFF  !important;
+  color: #C5D531  !important;
   padding: 5vh;
 }
 .link{

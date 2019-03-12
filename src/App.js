@@ -6,6 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import gitaru from './images/gitaru.jpg'
 import NavbarPage from './components/NavbarPage'
 import ImageBackground from './components/ImageBackground'
+import Meetups from './components/Meetups'
 library.add(faUser);
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
       <div className="App" >
       <NavbarPage/>
       <ImageBackground image={gitaru}/>
+      <Meetups/>
       </div>
     );
   }
