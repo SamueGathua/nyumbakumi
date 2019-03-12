@@ -1,0 +1,49 @@
+.darken{
+  background-color: #000 !important;
+  opacity: 0.6;
+  width: 100%;
+  height: 90vh;
+  display: block;
+}
+.divback{
+  width: 100%;
+  height: 90vh;
+}
+.nav{
+  background-color: #C5D531;
+}
+.right{
+  float: right !important;
+}
+.metadata{
+  height: 100%;
+}
+.header-data{
+  width: 100%;
+  height: 40vh;
+}
+.links{
+  color: #FFFF  !important;
+  padding: 5vh;
+}
+.link{
+  margin-top: 10vh;
+  margin-right: 5vh;
+}
+.signup-btn{
+  background-color: #C5D531 !important;
+  border-radius: 2vh !important;
+  margin-left: 10vh;
+  width: 20vh;
+  color: #0A0A0A!important;
+}
+.signup-prompt{
+  margin-left: 70vh;
+  float: none !important;
+  margin-right: 30vh!important;
+  width: 60vh!important;
+  padding: 10vh!important;
+  border: 0.2vh solid #C5D531;
+  border-radius: 1vh;
+  color: #FFFF;
+}
