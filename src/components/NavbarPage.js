@@ -8,17 +8,18 @@
    render() {
      return (
        <Navbar collapseOnSelect expand="lg" className='nav'>
-          <Navbar.Brand href="#home">NyumbaKumi</Navbar.Brand>
+          <Navbar.Brand className="white" href="#home">NyumbaKumi</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <NavDropdown title="Location" id="collasible-nav-dropdown">
+            <Nav.Link className="white" href="#deets">Location</Nav.Link>
+              <NavDropdown  id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Gitaru</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
               <Nav.Link eventKey={2} href="#memes">
-              <FontAwesomeIcon icon="user"/>
+              <FontAwesomeIcon className="white" icon="user"/>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
