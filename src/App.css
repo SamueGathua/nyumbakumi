@@ -1,6 +1,5 @@
 .darken{
-  background-color: #000 !important;
-  opacity: 0.6;
+  background-color: rgba(255,255,255,0.1) ;
   width: 100%;
   height: 90vh;
   display: block;
@@ -10,37 +9,49 @@
   height: 90vh;
 }
 .nav{
-  background-color: #0537F6;
+  background-color: #972911;
 }
 .white{
   color: #FFFFFF!important;
 }
 .meetup-conainer{
   height: 95vh !important;
+  border: 0.2vh solid #972911;
 }
 .right{
   float: right !important;
 }
 .meetup-conainer{
-  background-color: #414144 !important;
+  background-color: #281C1A !important;
   color: #FFFFFF !important;
   text-align: center;
 }
 .meetup:hover .meetup-caption{
+  display: block;
   position: absolute;
   width:100%;
   height:100%;
   background-color: #000!important;
-  opacity: 0.4!important;
+  opacity: 0.7!important;
   margin: 0vh!important;
   padding: 0vh!important;
   top: 0vh!important;
   bottom: 0vh!important;
   left: 0vh!important;
+  border-radius: 20vh !important;
+}
+.meetup-caption {
+  display: none;
+}
+.meetup{
+  border: 0.8vh solid #972911;
+  border-radius: 20vh !important;
 }
 .d-block{
   width: 100%;
   height: 80vh!important;
+  border: 0vh solid #414144;
+  border-radius: 20vh !important;
 }
 .metadata{
   height: 100%;
@@ -50,7 +61,7 @@
   height: 40vh;
 }
 .links{
-  color: #0537F6  !important;
+  color: #FFFFFF  !important;
   padding: 5vh;
 }
 .link{
@@ -58,11 +69,13 @@
   margin-right: 5vh;
 }
 .signup-btn{
-  background-color: #0537F6 !important;
+  background-color: #972911 !important;
+  border: 0.2vh solid #972911 !important;
   border-radius: 2vh !important;
   margin-left: 10vh;
   width: 20vh;
   color: #FFF!important;
+
 }
 .signup-prompt{
   margin-left: 70vh;
@@ -70,7 +83,7 @@
   margin-right: 30vh!important;
   width: 60vh!important;
   padding: 10vh!important;
-  border: 0.2vh solid #0537F6;
+  border: 0.4vh solid #972911;
   border-radius: 1vh;
   color: #FFFFFF;
 }

@@ -3,10 +3,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import gitaru from './images/gitaru.jpg'
+import gitaru from './images/gitaru.jpeg'
 import NavbarPage from './components/NavbarPage'
 import ImageBackground from './components/ImageBackground'
 import Meetups from './components/Meetups'
+import Footer from './components/Footer'
 library.add(faUser);
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
       <NavbarPage/>
       <ImageBackground image={gitaru}/>
       <Meetups/>
+      <Footer/>
       </div>
     );
   }

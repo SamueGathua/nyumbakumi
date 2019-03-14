@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import gitaru from '../images/gitaru.jpg';
+import gitaru from '../images/gitaru.jpeg';
 import Button from 'react-bootstrap/Button';
 
 class ImageBackground extends Component {
@@ -7,8 +7,13 @@ class ImageBackground extends Component {
 
     const image = this.props.image
     const imgstyles = {
-      background: `url(${image}`,
-      backgroundSize: `cover`,
+      backgroundImage:
+        `linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(${image}`,
+      backgroundSize: `cover`
     }
     return (
       <div className="divback" style={imgstyles}>
