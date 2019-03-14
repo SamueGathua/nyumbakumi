@@ -18,7 +18,7 @@
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={2} href="/admin">
               <FontAwesomeIcon className="white" icon="user"/>
               </Nav.Link>
             </Nav>

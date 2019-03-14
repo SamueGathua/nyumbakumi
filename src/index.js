@@ -4,13 +4,15 @@ import './index.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Notfound from './components/notfound'
+import Notfound from './components/notfound';
+import AdminPage from './components/Admin';
 
 
 const routing =
   <Router>
      <Switch>
         <Route exact path="/" component={App} />
+        <Route exact path="/admin" component={AdminPage} />
       </Switch>
   </Router>
 
